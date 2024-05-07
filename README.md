@@ -3,7 +3,7 @@
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **The following document explains what data is collected by FlagsDex.**
 
-### Things to Note
+## Things to Note
 
 - "Application" or "Discord Application" is referred to the Discord bot user. Its associated owners and the servers is has
 - "Data" is referred to data stored by an individual instance, including personal data
@@ -12,7 +12,7 @@
 - "Application Owner" is referred to the owner of the Discord application, meaning the one with any form of access to the application's authentication method and data belonging to the instance
 - "FlagsDex Staff Team" or "Staff Team" is referred to the owner of the Discord application and the users they may chose to be part of the staff team. You may find a list of these users on the [Official FlagsDex Discord Server](https://discord.gg/3bBwY9AYWU).
 
-### Open Source
+## Open Source
 
 The code of FlagsDex is available and taken from https://github.com/laggron42/BallsDex-DiscordBot. A copy of the licence can be found in there.
 
@@ -20,7 +20,7 @@ The code of FlagsDex is available and taken from https://github.com/laggron42/Ba
 
 You may check the source code and see how the data is managed, in addition to the following policy.
 
-### What data is collected?
+## What data is collected?
 
 FlagsDex **only** collects the following data from Discord:
 - **User IDs** | This is used to identify you inside our database
@@ -31,12 +31,12 @@ Additionally, the following data proper to FlagsDex is both created and used:
 - **The list of collectibles owned by a user of the service**
 - **A history of trades done on collectibles, including the users that once owned the said collectible but do not anymore**
 
-### How the data is stored?
+## How the data is stored?
 All data is stored on a PostgreSQL server, running on a Docker Desktop Virtual Machine hosted by kotobc, the owner of FlagsDex.
 
 Interaction between the bot and the database server is exclusively local using [Tortoise ORM](https://github.com/tortoise/tortoise-orm).
 
-### Access to the data
+## Access to the data
 The only person who is allowed to access the data is the application owner.
 
 An application owner may interact with the bot and the administrator interface. Only `kotobc` has direct access on the hosting machine.
@@ -45,7 +45,7 @@ The FlagsDex staff team **do not have access to the data.**
 
 **The data is never going to be made available to the public**. Access to the data must and will be secured accordingly.
 
-### Your rights
+## Your rights
 
 You may request a copy or the delection of your personal data held by the application by contacting the application owner. This can be done by joining our [Official FlagsDex Discord Server](https://discord.gg/3bBwY9AYWU) and DM kotobc. Sending a request to the application owner (kotobc) is also available.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
